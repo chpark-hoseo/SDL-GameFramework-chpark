@@ -1,4 +1,7 @@
 #include "SDL.h"
+#include "TextureManager.h"
+
+//class TextureManager;
 
 class Game {
 public:
@@ -17,9 +20,6 @@ private:
     SDL_Renderer* m_pRenderer;
     bool m_bRunning;
 
-    SDL_Texture* m_pTexture; 
-    // 원본 사각형
-    SDL_Rect m_sourceRectangle;	 
-    // 대상 사각형
-    SDL_Rect m_destinationRectangle;
+    TextureManager m_textureManager;
+    int m_currentFrame; 
 };
