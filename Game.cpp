@@ -1,7 +1,8 @@
 #include "Game.h"
 #include "SDL_image.h"
 
-bool Game::init(const char *title, int xpos, int ypos, int width, int height, int flags) {
+bool Game::init(const char *title, int xpos, int ypos, int width, int height, int flags) 
+{
   if (SDL_Init(SDL_INIT_EVERYTHING) == 0) {
     m_pWindow = SDL_CreateWindow(title, xpos, ypos, width, height, flags);
     if (m_pWindow != 0) {
