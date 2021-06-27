@@ -1,3 +1,4 @@
+/*
 #include "GameObject.h"
 #include "TextureManager.h"
 
@@ -27,3 +28,4 @@ void GameObject::update()
 {
     m_x += 1;
 }
+*/
