@@ -1,6 +1,7 @@
 #include "Game.h"
 Game* g_game = 0;
 
+// texture manager 
 int main(int argc, char* argv[])
 {
     g_game = new Game();
