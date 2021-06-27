@@ -3,6 +3,8 @@
 #include "SDL.h"
 #include <string>
 
+// 상속 주석 추가 //
+
 class GameObject {
 
 public:
