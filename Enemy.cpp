@@ -10,9 +10,9 @@ void Enemy::draw()
 
 void Enemy::update()
 {
-    m_position += Vector2D(2,1);
-
     m_currentFrame = ( (SDL_GetTicks() / 100) % 6);
+    m_acceleration.setX(0.1);
+    SDLGameObject::update(); 
 }
 
 void Enemy::clean() {}
