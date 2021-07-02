@@ -10,11 +10,11 @@ void PlayState::render()
 }
 bool PlayState::onEnter()
 {
-    std::cout << "entering PlayState\n";
+    printf( "entering PlayState\n");
     return true;
 }
 bool PlayState::onExit()
 {
-    std::cout << "exiting PlayState\n";
+    printf("exiting PlayState\n");
     return true;
 }

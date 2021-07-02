@@ -12,13 +12,12 @@ void MenuState::render()
 
 bool MenuState::onEnter()
 {
-    std::cout << "entering MenuState\n";
+    printf("entering MenuState\n");
     return true;
 }
 
 bool MenuState::onExit()
 {
-    std::cout << "exiting MenuState\n";
+    printf("exiting MenuState\n");
     return true;
 }
-

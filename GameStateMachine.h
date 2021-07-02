@@ -1,5 +1,6 @@
 #include "GameState.h"
-#include
+#include <vector>
+
 class GameStateMachine {
 public:
     void pushState(GameState* pState);

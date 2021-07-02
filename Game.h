@@ -4,6 +4,9 @@
 #include "GameObject.h"
 #include <vector>
 
+class GameStateMachine;
+
+
 class Game {
 private:
     Game() {}
@@ -37,6 +40,8 @@ private:
     int m_currentFrame; 
 
     std::vector<GameObject*> m_gameObjects;
+
+    GameStateMachine* m_pGameStateMachine;
 };
 
 typedef Game TheGame;
