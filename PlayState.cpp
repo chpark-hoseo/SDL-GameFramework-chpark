@@ -2,10 +2,13 @@
 const std::string PlayState::s_playID = "PLAY";
 void PlayState::update()
 {
+  printf( "update\n");
     // nothing for now
 }
 void PlayState::render()
 {
+    printf( "render\n");
+
     // nothing for now
 }
 bool PlayState::onEnter()

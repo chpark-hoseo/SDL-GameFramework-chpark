@@ -22,6 +22,8 @@ public:
 
     SDL_Renderer* getRenderer() const { return m_pRenderer; }
 
+    GameStateMachine* getStateMachine() const { return m_pGameStateMachine; }
+
 public:
     ~Game() {}
 

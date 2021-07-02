@@ -26,6 +26,10 @@ public:
         return s_pInstance;
     }
 
+    void clearFromTextureMap(std::string id)
+    {
+      m_textureMap.erase(id);
+    }
 private:
     std::map<std::string, SDL_Texture*> m_textureMap;
 
